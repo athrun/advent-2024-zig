@@ -66,7 +66,6 @@ fn execOps(allocator: std.mem.Allocator, items: [][]const u8) i64 {
 }
 
 pub fn main() !void {
-    // const input = @embedFile("inputs/03.sample.2.txt");
     const input = @embedFile("inputs/03.txt");
 
     var arena = std.heap.ArenaAllocator.init(std.heap.page_allocator);
