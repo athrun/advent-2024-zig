@@ -1,7 +1,6 @@
 // lifted from:
 // https://www.openmymind.net/Regular-Expressions-in-Zig/
 #include <regex.h>
-#include <stdbool.h>
 #include <stdalign.h>
 
 const size_t sizeof_regex_t = sizeof(regex_t);
